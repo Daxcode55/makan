@@ -1,0 +1,4 @@
+1.container-rowtop = display flex
+2.descrip-rowtop = z-index 1
+3.buat div baru untuk membungkus card overley
+4.div baru menjadi z index 2

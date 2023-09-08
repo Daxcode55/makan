@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container {
+        width: 200px;
+        position: relative;
+        border: 1px solid black;
+            cursor: pointer;
+        }
+
+        .image {
+            display: block;
+        }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        transition: .5s ease;
+    }
+
+    .container:hover .overlay {
+        height: 30%;
+    }
+
+    .text {
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        margin: 30px auto;
+    }
+</style>
+
+<body>
+
+
+
+
+    <div class="container">
+        <img src="asset/esTeh.jpg" alt="" class="image" width="100%">
+        <div class="overlay">
+            <div class="text">ayam geprek</div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
